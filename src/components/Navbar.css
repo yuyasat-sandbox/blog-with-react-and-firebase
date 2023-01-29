@@ -1,21 +1,21 @@
 nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    background-color: rgb(255, 213, 45);
-    gap: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(255, 213, 45);
+  gap: 45px;
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 nav a:hover {
-    color: cadetblue;
+  color: cadetblue;
 }
 
 nav a svg {
-    margin-right: 5px;
+  margin-right: 5px;
 }
