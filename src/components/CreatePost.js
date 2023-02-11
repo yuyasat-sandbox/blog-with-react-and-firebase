@@ -10,7 +10,6 @@ const CreatePost = ({ isAuth }) => {
   const navigate = useNavigate();
 
   const createPost = async () => {
-    console.log(auth.currentUser);
     // Add a new document with a generated id.
     const docRef = await addDoc(collection(db, "posts"), {
       title: title,
